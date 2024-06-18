@@ -1,0 +1,71 @@
+main{
+    padding: 24px;
+    background-color: rgb(126, 212, 240);
+    min-height: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main > div{
+    width: 300px;
+    padding: 16px;
+    background-color: rgb(210, 238, 248);
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    margin:auto auto;
+}
+
+main > div > h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 8px 0;  
+
+}
+
+main > div > p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-top:auto;  
+}
+
+
+nav{
+    background-color: rgb(126, 212, 240);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > input:focus{
+    outline: 0;
+    border: 0;
+}
+
+
+
+nav>input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
